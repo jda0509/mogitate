@@ -1,0 +1,204 @@
+.register-menu{
+    width: 1512px;
+    height: 930px;
+    padding: 70px 376px;
+    gap: 40px;
+    background-color: #F8F8F8;
+}
+
+.register-header__title{
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    color: #333333;
+}
+
+.register-menu__content{
+    width: 760px;
+    height: 702px;
+    gap: 30px;
+}
+
+.register-menu__name{
+    display: flex;
+    width: 92px;
+    height: 24px;
+    gap: 10px;
+}
+
+.register-menu__required{
+    width: 24px;
+    height: 18px;
+    font-family: Arial;
+    font-size: 12px;
+    background-color: red;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.register-menu__name-label{
+    width: 48px;
+    height: 24px;
+    font-family: Arial;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #4B4B4B;
+}
+
+.register_name{
+    width: 760px;
+    height: 23px;
+    border: solid 1px #E0DFDE;
+    border-radius: 5px;
+    padding: 11px 10px;
+    margin: 15px 0 30px 0;
+}
+
+.register-menu__price{
+    display: flex;
+    width: 76px;
+    height: 24px;
+    gap: 10px;
+}
+
+.register-menu__price-label{
+    width: 32px;
+    height: 24px;
+    font-family: Arial;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #4B4B4B;
+}
+
+.register_price{
+    width: 760px;
+    height: 23px;
+    border: solid 1px #E0DFDE;
+    border-radius: 5px;
+    padding: 11px 10px;
+    gap: 10px;
+    margin: 15px 0 30px 0;
+}
+
+.register-menu__image{
+    display: flex;
+    width: 108px;
+    height: 24px;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.register-menu__image-label{
+    width: 64px;
+    height: 24px;
+    font-family: Arial;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #4B4B4B;
+}
+
+.register_image__input{
+    width: 118px;
+    height: 43px;
+    gap: 10px;
+    font-family: Arial;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    color: #4B4B4B;
+    border: solid 1px;
+    padding: 5px 15px;
+    background-color: #E0DFDF;
+}
+
+.register-menu__season{
+    width: 314px;
+    height: 24px;
+    gap: 10px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom:10px;
+    align-items: center;
+}
+
+.register-menu__required-season{
+    color: red;
+    font-size: 15px;
+    line-height: 100%;
+    font-family: Arial;
+}
+
+.register-menu__season_label{
+    font-family: Arial;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #4B4B4B;
+}
+
+.season-group{
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+.register-menu__description{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.register-menu__description-label{
+    font-family: Arial;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #4B4B4B;
+}
+
+.register_description{
+    width: 760px;
+    height: 160px;
+    border: solid 1px #E0DFDE;
+    border-radius: 5px;
+    padding: 11px 10px;
+}
+
+.register-button{
+    display: flex;
+    width: 760px;
+    gap: 20px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.register-button__home{
+    width: 200px;
+    text-decoration: none;
+    color: #4B4B4B;
+    font-family: Arial;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    border: solid 1px #E0DFDE;
+    border-radius: 5px;
+    padding: 13px 10px;
+}
+
+.register-button__submit{
+    width: 200px;
+    border: solid 1px #F5C800;
+    border-radius: 5px;
+    padding: 13px 10px;
+    background-color: #F5C800;
+}
+
+.error{
+    color:red;
+}

@@ -1,0 +1,21 @@
+.header{
+    width:1512px;
+    height:53px;
+    color:white;
+}
+
+.header__inner{
+    border-bottom:1px #f4f4f4;
+    padding:10px 20px;
+}
+
+.header__logo{
+    width:112px;
+    height:33px;
+    text-decoration:none;
+    color:#F5C800;
+    font-family:cursive;
+    font-weight:500;
+    font-style: italic;
+    font-size:30px;
+}

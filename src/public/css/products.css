@@ -1,0 +1,145 @@
+.content{
+    width: max;
+    height: 1050px;
+    padding:70px 0px;
+    display: flex;
+    background-color: #F8F8F8;
+}
+
+.content__header{
+    display:flex;
+    width: 100%;
+    max-width: 1512px;
+    height:60px;
+    padding:0px 40px;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom: 20px;
+}
+
+.content__title{
+    position:relative;
+    width:128px;
+    height:48px;
+    font-family:Arial;
+    font-weight:600;
+    font-size:32px;
+    margin: 0px;
+}
+
+.product-button{
+    position:absolute;
+    display: inline-block;
+    text-decoration:none;
+    list-style:none;
+    width:137px;
+    height:30px;
+    left:1450px;
+    border-radius:5px;
+    padding:13px 20px;
+    background-color:#FFA929;
+    text-align:center;
+    color: black;
+}
+
+.search__side{
+    width:240px;
+    height:267px;
+    gap:40px;
+    padding: 0px 40px;
+    position: absolute;
+    top: 200px;
+}
+
+.search-form__item-input{
+    width: 100%;
+    border-radius: 15px;
+    height: 30px;
+    border: solid 1px;
+    border-color: #e0dfde;
+    margin-bottom: 30px;
+}
+
+.search-form__button-submit{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    line-height: 10px;
+    background-color: #F5C800;
+    border: none;
+    text-align: center;
+    padding: 0px;
+}
+
+.search-form__price{
+    width: 240px;
+    height: 113px;
+    padding-bottom: 20px;
+    border-bottom: 1px;
+    border-color: #E0DFDE;
+    margin-top: 30px;
+}
+
+.search-form__type{
+    width: 100%;
+    font-family: Arial;
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 100%;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.sort__price-content{
+    width: max;
+    height: max;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: #e0DFDE;
+    padding: 11px 10px;
+}
+
+.product-list{
+    position: absolute;
+    left: 330px;
+    top: 200px;
+    display: flex;
+    width: 1300px;
+    height: 850px;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-card{
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.35);
+    background-color: white;
+    z-index: 1;
+}
+
+.product-card__image{
+    max-width: 100%;
+    display: block;
+    height: 280px;
+}
+
+.product-card__link{
+    text-decoration: none;
+}
+
+.product-card__design{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+}
+
+.pagination{
+    position: absolute;
+    top: 1050px;
+    left: 50%;
+}
